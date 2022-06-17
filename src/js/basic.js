@@ -1,7 +1,5 @@
-export default function sum(items) {
-  let result = 0;
-  for (const item of items) {
-    result += item;
-  }
-  return result;
-}
+import Goblin from './Goblin';
+import {positionsDOM, getAttack} from './utils';
+
+let timerId = setInterval(Goblin.add, 800);
+getAttack(positionsDOM);

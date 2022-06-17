@@ -1,5 +1,5 @@
-dist
 doc
+.idea
 
 # Logs
 logs
@@ -81,3 +81,7 @@ typings/
 
 # DynamoDB Local files
 .dynamodb/
+
+# Thumbnails
+Thumbs.db
+Thumbs.db:encryptable
