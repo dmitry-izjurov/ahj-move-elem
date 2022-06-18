@@ -1,7 +1,17 @@
-import sum from '../basic';
+// import Goblin from '../Goblin';
+import { positionsDOM } from '../utils';
 
-test('should sum', () => {
-  const result = sum([1, 2, 3]);
+// test('Метод должен возвращать число', () => {
+//   const result = typeof Goblin.add();
+//   expect(result).toBe('number');
+// });
 
-  expect(result).toBe(6);
+test('Объект должен возвращать массив', () => {
+  const result = Array.isArray(positionsDOM);
+  expect(result).toBe(true);
 });
+
+// test('Объект должен возвращать массив соответствующей длины', () => {
+//   const result = positionsDOM.length;
+//   expect(result).toBe(4);
+// });
